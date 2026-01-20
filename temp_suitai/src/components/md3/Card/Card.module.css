@@ -1,0 +1,275 @@
+/**
+ * MD3 Card Component Styles
+ * Material Design 3 Card with all variants
+ */
+
+/* ============================================
+ * CARD BASE
+ * ============================================ */
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border-radius: var(--md-sys-shape-corner-medium, 12px);
+  overflow: hidden;
+  transition:
+    box-shadow var(--md-sys-motion-duration-short3, 150ms) var(--md-sys-motion-easing-standard, ease),
+    background-color var(--md-sys-motion-duration-short3, 150ms) var(--md-sys-motion-easing-standard, ease);
+}
+
+/* ============================================
+ * CARD VARIANTS
+ * ============================================ */
+
+/* Filled (default) - subtle background, no border */
+.filled {
+  background-color: var(--md-sys-color-surface-container-highest, #E6E1E5);
+}
+
+/* Outlined - border, no shadow */
+.outlined {
+  background-color: var(--md-sys-color-surface, #FFFBFF);
+  border: 1px solid var(--md-sys-color-outline-variant, #CAC4D0);
+}
+
+/* Elevated - higher shadow */
+.elevated {
+  background-color: var(--md-sys-color-surface-container-low, #F7F2FA);
+  box-shadow: var(--md-sys-shadow-level1);
+}
+
+/* ============================================
+ * CLICKABLE STATE
+ * ============================================ */
+
+.clickable {
+  cursor: pointer;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.clickable:focus-visible {
+  outline: 2px solid var(--md-sys-color-primary, #1A237E);
+  outline-offset: 2px;
+}
+
+/* State layer for hover/focus */
+.stateLayer {
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  opacity: 0;
+  background-color: var(--md-sys-color-on-surface, #1C1B1F);
+  transition: opacity var(--md-sys-motion-duration-short3, 150ms) var(--md-sys-motion-easing-standard, ease);
+  z-index: 1;
+}
+
+.clickable:hover .stateLayer {
+  opacity: 0.08;
+}
+
+.clickable:active .stateLayer {
+  opacity: 0.12;
+}
+
+/* Elevated cards get more shadow on hover */
+.elevated.clickable:hover {
+  box-shadow: var(--md-sys-shadow-level2);
+}
+
+.elevated.clickable:active {
+  box-shadow: var(--md-sys-shadow-level1);
+}
+
+/* ============================================
+ * SELECTED STATE
+ * ============================================ */
+
+.selected {
+  border: 2px solid var(--md-sys-color-primary, #1A237E);
+}
+
+.selected.filled,
+.selected.elevated {
+  background-color: color-mix(in srgb, var(--md-sys-color-primary) 8%, var(--md-sys-color-surface));
+}
+
+/* ============================================
+ * CARD HEADER
+ * ============================================ */
+
+.header {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 16px;
+  position: relative;
+  z-index: 2;
+}
+
+.avatar {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: var(--md-sys-shape-corner-full, 9999px);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--md-sys-color-primary-container, #DEE0FF);
+  color: var(--md-sys-color-on-primary-container, #000F5C);
+}
+
+.avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.headerContent {
+  flex: 1;
+  min-width: 0;
+}
+
+.title {
+  font-family: var(--md-sys-typescale-title-medium-font-family, 'Roboto', sans-serif);
+  font-weight: var(--md-sys-typescale-title-medium-font-weight, 500);
+  font-size: var(--md-sys-typescale-title-medium-font-size, 16px);
+  line-height: var(--md-sys-typescale-title-medium-line-height, 24px);
+  letter-spacing: var(--md-sys-typescale-title-medium-letter-spacing, 0.15px);
+  color: var(--md-sys-color-on-surface, #1C1B1F);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.subtitle {
+  font-family: var(--md-sys-typescale-body-medium-font-family, 'Roboto', sans-serif);
+  font-size: var(--md-sys-typescale-body-medium-font-size, 14px);
+  line-height: var(--md-sys-typescale-body-medium-line-height, 20px);
+  letter-spacing: var(--md-sys-typescale-body-medium-letter-spacing, 0.25px);
+  color: var(--md-sys-color-on-surface-variant, #49454F);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.action {
+  flex-shrink: 0;
+  margin: -8px -8px -8px 0;
+}
+
+/* ============================================
+ * CARD CONTENT
+ * ============================================ */
+
+.content {
+  position: relative;
+  z-index: 2;
+  font-family: var(--md-sys-typescale-body-medium-font-family, 'Roboto', sans-serif);
+  font-size: var(--md-sys-typescale-body-medium-font-size, 14px);
+  line-height: var(--md-sys-typescale-body-medium-line-height, 20px);
+  color: var(--md-sys-color-on-surface-variant, #49454F);
+}
+
+.padding-none {
+  padding: 0;
+}
+
+.padding-sm {
+  padding: 8px 16px;
+}
+
+.padding-md {
+  padding: 16px;
+}
+
+.padding-lg {
+  padding: 24px;
+}
+
+/* Remove top padding if following header */
+.header + .content {
+  padding-top: 0;
+}
+
+/* ============================================
+ * CARD MEDIA
+ * ============================================ */
+
+.media {
+  position: relative;
+  z-index: 2;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: var(--md-sys-color-surface-variant, #E7E0EC);
+  overflow: hidden;
+}
+
+.media-top {
+  border-radius: var(--md-sys-shape-corner-medium, 12px) var(--md-sys-shape-corner-medium, 12px) 0 0;
+}
+
+.media-middle {
+  border-radius: 0;
+}
+
+.media-bottom {
+  border-radius: 0 0 var(--md-sys-shape-corner-medium, 12px) var(--md-sys-shape-corner-medium, 12px);
+}
+
+/* First child media gets top border radius from card */
+.card > .media:first-child {
+  border-radius: inherit;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+/* ============================================
+ * CARD ACTIONS
+ * ============================================ */
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 16px;
+  position: relative;
+  z-index: 2;
+}
+
+.align-start {
+  justify-content: flex-start;
+}
+
+.align-center {
+  justify-content: center;
+}
+
+.align-end {
+  justify-content: flex-end;
+}
+
+.align-space-between {
+  justify-content: space-between;
+}
+
+/* Remove top padding if following content */
+.content + .actions {
+  padding-top: 0;
+}
+
+/* ============================================
+ * CARD DIVIDER
+ * ============================================ */
+
+.divider {
+  border: none;
+  border-top: 1px solid var(--md-sys-color-outline-variant, #CAC4D0);
+  margin: 0 16px;
+  position: relative;
+  z-index: 2;
+}

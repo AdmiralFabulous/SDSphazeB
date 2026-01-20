@@ -1,0 +1,331 @@
+/**
+ * MD3 Button Component Styles
+ * Material Design 3 Button with all variants
+ */
+
+.button {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border: none;
+  border-radius: var(--md-sys-shape-corner-full, 9999px);
+  cursor: pointer;
+  font-family: var(--md-sys-typescale-label-large-font-family, 'Roboto', sans-serif);
+  font-weight: var(--md-sys-typescale-label-large-font-weight, 500);
+  font-size: var(--md-sys-typescale-label-large-font-size, 14px);
+  line-height: var(--md-sys-typescale-label-large-line-height, 20px);
+  letter-spacing: var(--md-sys-typescale-label-large-letter-spacing, 0.1px);
+  text-decoration: none;
+  overflow: hidden;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  transition:
+    background-color var(--md-sys-motion-duration-short3, 150ms) var(--md-sys-motion-easing-standard, ease),
+    box-shadow var(--md-sys-motion-duration-short3, 150ms) var(--md-sys-motion-easing-standard, ease);
+}
+
+/* ============================================
+ * SIZE VARIANTS
+ * ============================================ */
+
+.sm {
+  height: 32px;
+  padding: 0 16px;
+  font-size: 13px;
+  gap: 6px;
+}
+
+.md {
+  height: 40px;
+  padding: 0 24px;
+}
+
+.lg {
+  height: 48px;
+  padding: 0 32px;
+  font-size: 16px;
+  gap: 10px;
+}
+
+/* Icon only buttons */
+.iconOnly.sm {
+  width: 32px;
+  padding: 0;
+}
+
+.iconOnly.md {
+  width: 40px;
+  padding: 0;
+}
+
+.iconOnly.lg {
+  width: 48px;
+  padding: 0;
+}
+
+/* ============================================
+ * FILLED VARIANT (Primary)
+ * ============================================ */
+
+.filled {
+  background-color: var(--md-sys-color-primary, #1A237E);
+  color: var(--md-sys-color-on-primary, #FFFFFF);
+}
+
+.filled:hover:not(:disabled) {
+  background-color: color-mix(in srgb, var(--md-sys-color-primary) 92%, var(--md-sys-color-on-primary));
+  box-shadow: var(--md-sys-shadow-level1);
+}
+
+.filled:active:not(:disabled) {
+  background-color: color-mix(in srgb, var(--md-sys-color-primary) 88%, var(--md-sys-color-on-primary));
+}
+
+.filled:focus-visible {
+  outline: 2px solid var(--md-sys-color-on-primary);
+  outline-offset: 2px;
+}
+
+/* ============================================
+ * TONAL VARIANT (Secondary)
+ * ============================================ */
+
+.tonal {
+  background-color: var(--md-sys-color-secondary-container, #FFDDB3);
+  color: var(--md-sys-color-on-secondary-container, #2A1800);
+}
+
+.tonal:hover:not(:disabled) {
+  background-color: color-mix(in srgb, var(--md-sys-color-secondary-container) 92%, var(--md-sys-color-on-secondary-container));
+  box-shadow: var(--md-sys-shadow-level1);
+}
+
+.tonal:active:not(:disabled) {
+  background-color: color-mix(in srgb, var(--md-sys-color-secondary-container) 88%, var(--md-sys-color-on-secondary-container));
+}
+
+.tonal:focus-visible {
+  outline: 2px solid var(--md-sys-color-primary);
+  outline-offset: 2px;
+}
+
+/* ============================================
+ * OUTLINED VARIANT (Tertiary)
+ * ============================================ */
+
+.outlined {
+  background-color: transparent;
+  color: var(--md-sys-color-primary, #1A237E);
+  border: 1px solid var(--md-sys-color-outline, #79747E);
+}
+
+.outlined:hover:not(:disabled) {
+  background-color: color-mix(in srgb, var(--md-sys-color-primary) 8%, transparent);
+}
+
+.outlined:active:not(:disabled) {
+  background-color: color-mix(in srgb, var(--md-sys-color-primary) 12%, transparent);
+}
+
+.outlined:focus-visible {
+  outline: 2px solid var(--md-sys-color-primary);
+  outline-offset: 2px;
+  border-color: var(--md-sys-color-primary);
+}
+
+/* ============================================
+ * TEXT VARIANT (Minimal)
+ * ============================================ */
+
+.text {
+  background-color: transparent;
+  color: var(--md-sys-color-primary, #1A237E);
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.text:hover:not(:disabled) {
+  background-color: color-mix(in srgb, var(--md-sys-color-primary) 8%, transparent);
+}
+
+.text:active:not(:disabled) {
+  background-color: color-mix(in srgb, var(--md-sys-color-primary) 12%, transparent);
+}
+
+.text:focus-visible {
+  outline: 2px solid var(--md-sys-color-primary);
+  outline-offset: 2px;
+}
+
+/* ============================================
+ * ELEVATED VARIANT
+ * ============================================ */
+
+.elevated {
+  background-color: var(--md-sys-color-surface-container-low, #F7F2FA);
+  color: var(--md-sys-color-primary, #1A237E);
+  box-shadow: var(--md-sys-shadow-level1);
+}
+
+.elevated:hover:not(:disabled) {
+  background-color: color-mix(in srgb, var(--md-sys-color-surface-container-low) 92%, var(--md-sys-color-primary));
+  box-shadow: var(--md-sys-shadow-level2);
+}
+
+.elevated:active:not(:disabled) {
+  background-color: color-mix(in srgb, var(--md-sys-color-surface-container-low) 88%, var(--md-sys-color-primary));
+  box-shadow: var(--md-sys-shadow-level1);
+}
+
+.elevated:focus-visible {
+  outline: 2px solid var(--md-sys-color-primary);
+  outline-offset: 2px;
+}
+
+/* ============================================
+ * DANGER VARIANT (for destructive actions)
+ * ============================================ */
+
+.danger.filled {
+  background-color: var(--md-sys-color-error, #BA1A1A);
+  color: var(--md-sys-color-on-error, #FFFFFF);
+}
+
+.danger.outlined {
+  color: var(--md-sys-color-error);
+  border-color: var(--md-sys-color-error);
+}
+
+.danger.text {
+  color: var(--md-sys-color-error);
+}
+
+.danger.tonal {
+  background-color: var(--md-sys-color-error-container);
+  color: var(--md-sys-color-on-error-container);
+}
+
+/* ============================================
+ * DISABLED STATE
+ * ============================================ */
+
+.disabled,
+.button:disabled {
+  cursor: not-allowed;
+  opacity: 0.38;
+  box-shadow: none !important;
+}
+
+.disabled.outlined,
+.button:disabled.outlined {
+  border-color: color-mix(in srgb, var(--md-sys-color-on-surface) 12%, transparent);
+}
+
+/* ============================================
+ * LOADING STATE
+ * ============================================ */
+
+.loading {
+  pointer-events: none;
+}
+
+.loading .label {
+  opacity: 0.7;
+}
+
+/* ============================================
+ * FULL WIDTH
+ * ============================================ */
+
+.fullWidth {
+  width: 100%;
+}
+
+/* ============================================
+ * INTERNAL ELEMENTS
+ * ============================================ */
+
+.content {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: inherit;
+  z-index: 1;
+}
+
+.label {
+  white-space: nowrap;
+}
+
+.icon,
+.trailingIcon {
+  flex-shrink: 0;
+}
+
+/* State layer for hover/focus effects */
+.stateLayer {
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity var(--md-sys-motion-duration-short3, 150ms) var(--md-sys-motion-easing-standard, ease);
+}
+
+.button:hover .stateLayer {
+  opacity: 0.08;
+  background-color: currentColor;
+}
+
+.button:active .stateLayer {
+  opacity: 0.12;
+  background-color: currentColor;
+}
+
+/* ============================================
+ * RIPPLE EFFECT
+ * ============================================ */
+
+.ripple {
+  position: absolute;
+  border-radius: 50%;
+  background-color: currentColor;
+  opacity: 0;
+  transform: scale(0);
+  pointer-events: none;
+}
+
+.rippleAnimate {
+  animation: ripple-effect 600ms ease-out forwards;
+}
+
+@keyframes ripple-effect {
+  0% {
+    opacity: 0.24;
+    transform: scale(0);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(2.5);
+  }
+}
+
+/* ============================================
+ * ANIMATIONS
+ * ============================================ */
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.loading .icon {
+  animation: spin 1s linear infinite;
+}
