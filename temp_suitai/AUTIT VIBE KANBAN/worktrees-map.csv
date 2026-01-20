@@ -1,0 +1,171 @@
+task_title,status,branch,worktree_path,archived,created
+"INFRA-E01-S02-T03: Install NVIDIA WSL Driver",inprogress,vk/a0a9-infra-e01-s02-t0,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\a0a9-infra-e01-s02-t0,False,2026-01-19T01:37:08
+"Install and integrate Vibe Kanban Web Companion",inprogress,vk/6ceb-install-and-inte,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\6ceb-install-and-inte,False,2026-01-19T01:36:42
+"ADMIN-E01-S01-T01: Create Admin Route",inreview,vk/4cd4-admin-e01-s01-t0,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\4cd4-admin-e01-s01-t0,False,2026-01-19T15:18:59
+"ADMIN-E01-S01-T02: Implement Admin Auth",inreview,vk/6afa-admin-e01-s01-t0,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\6afa-admin-e01-s01-t0,False,2026-01-19T15:19:01
+"ADMIN-E01-S01-T03: Build Admin Layout",inreview,vk/9f32-admin-e01-s01-t0,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\9f32-admin-e01-s01-t0,False,2026-01-19T15:19:33
+"ADMIN-E01-S02-T01: Build Queue View",inreview,vk/194e-admin-e01-s02-t0,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\194e-admin-e01-s02-t0,False,2026-01-19T15:19:34
+"ADMIN-E01-S02-T02: Implement State Filter",inreview,vk/7a99-admin-e01-s02-t0,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\7a99-admin-e01-s02-t0,False,2026-01-19T15:23:06
+"ADMIN-E01-S02-T03: Add Sort Options",inreview,vk/9c3e-admin-e01-s02-t0,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\9c3e-admin-e01-s02-t0,False,2026-01-19T15:24:08
+"ADMIN-E01-S02-T04: Add Search",inreview,vk/b47c-admin-e01-s02-t0,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\b47c-admin-e01-s02-t0,False,2026-01-19T15:26:10
+"ADMIN-E01-S02-T05: Implement Auto-Refresh",inreview,vk/026f-admin-e01-s02-t0,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\026f-admin-e01-s02-t0,False,2026-01-19T15:27:42
+"ADMIN-E01-S03-T01: Build Detail View",inreview,vk/7019-admin-e01-s03-t0,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\7019-admin-e01-s03-t0,False,2026-01-19T15:29:44
+"ADMIN-E01-S03-T02: Display 28 Measurements",inreview,vk/a87e-admin-e01-s03-t0,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\a87e-admin-e01-s03-t0,False,2026-01-19T15:30:15
+"ADMIN-E01-S03-T03: Display Configuration",inreview,vk/5374-admin-e01-s03-t0,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\5374-admin-e01-s03-t0,False,2026-01-19T15:32:17
+"ADMIN-E01-S03-T04: Display Customer Info",inreview,vk/c31c-admin-e01-s03-t0,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\c31c-admin-e01-s03-t0,False,2026-01-19T20:42:04
+"ADMIN-E01-S03-T04: Display Customer Info",inreview,vk/c7e0-admin-e01-s03-t0,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\c7e0-admin-e01-s03-t0,False,2026-01-19T15:34:48
+"ADMIN-E01-S03-T05: Show State History",inreview,vk/468c-admin-e01-s03-t0,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\468c-admin-e01-s03-t0,False,2026-01-19T20:42:07
+"ADMIN-E01-S03-T05: Show State History",inreview,vk/b88b-admin-e01-s03-t0,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\b88b-admin-e01-s03-t0,False,2026-01-19T15:36:50
+"ADMIN-E01-S04-T01: Build Transition Controls",inreview,vk/6b9c-admin-e01-s04-t0,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\6b9c-admin-e01-s04-t0,False,2026-01-19T15:36:52
+"ADMIN-E01-S04-T02: Implement State API Call",inreview,vk/8dc5-admin-e01-s04-t0,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\8dc5-admin-e01-s04-t0,False,2026-01-19T15:37:23
+"ADMIN-E01-S04-T03: Add Confirmation Modal",inreview,vk/8212-admin-e01-s04-t0,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\8212-admin-e01-s04-t0,False,2026-01-19T20:42:08
+"ADMIN-E01-S04-T03: Add Confirmation Modal",inreview,vk/501e-admin-e01-s04-t0,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\501e-admin-e01-s04-t0,False,2026-01-19T15:42:25
+"ADMIN-E01-S04-T04: Add Notes Field",inreview,vk/7dc6-admin-e01-s04-t0,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\7dc6-admin-e01-s04-t0,False,2026-01-19T20:42:10
+"ADMIN-E01-S04-T04: Add Notes Field",inreview,vk/b0a0-admin-e01-s04-t0,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\b0a0-admin-e01-s04-t0,False,2026-01-19T15:42:57
+"ADMIN-E02-S01-T01: Build Export View",inreview,vk/f606-admin-e02-s01-t0,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\f606-admin-e02-s01-t0,False,2026-01-19T22:09:11
+"ADMIN-E02-S01-T02: Add Copy to Clipboard",inreview,vk/fdeb-admin-e02-s01-t0,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\fdeb-admin-e02-s01-t0,False,2026-01-19T22:09:13
+"ADMIN-E02-S01-T03: Add Export All",inreview,vk/5009-admin-e02-s01-t0,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\5009-admin-e02-s01-t0,False,2026-01-19T22:09:14
+"ADMIN-E02-S01-T04: Generate Optitex Format",inreview,vk/7aa5-admin-e02-s01-t0,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\7aa5-admin-e02-s01-t0,False,2026-01-19T22:09:15
+"ADMIN-E02-S02-T01: Build Upload Interface",inreview,vk/c42c-admin-e02-s02-t0,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\c42c-admin-e02-s02-t0,False,2026-01-19T22:14:47
+"ADMIN-E02-S02-T02: Validate File Format",inreview,vk/480b-admin-e02-s02-t0,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\480b-admin-e02-s02-t0,False,2026-01-19T22:17:48
+"ADMIN-E02-S02-T03: Store Pattern File",inreview,vk/e51c-admin-e02-s02-t0,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\e51c-admin-e02-s02-t0,False,2026-01-19T22:18:50
+"ADMIN-E02-S02-T04: Update pattern_files Table",inreview,vk/d96d-admin-e02-s02-t0,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\d96d-admin-e02-s02-t0,False,2026-01-19T22:19:54
+"ADMIN-E02-S02-T05: Auto-Transition State",inreview,vk/fc3c-admin-e02-s02-t0,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\fc3c-admin-e02-s02-t0,False,2026-01-19T22:20:55
+"ADMIN-E02-S03-T01: Build Email Interface",inreview,vk/4f47-admin-e02-s03-t0,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\4f47-admin-e02-s03-t0,False,2026-01-19T22:22:57
+"ADMIN-E02-S03-T02: Implement Email Send",inreview,vk/555e-admin-e02-s03-t0,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\555e-admin-e02-s03-t0,False,2026-01-19T22:24:28
+"ADMIN-E02-S03-T03: Mark as Sent",inreview,vk/3cb2-admin-e02-s03-t0,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\3cb2-admin-e02-s03-t0,False,2026-01-19T22:24:59
+"ADMIN-E02-S03-T04: Track Delivery",inreview,vk/7cbe-admin-e02-s03-t0,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\7cbe-admin-e02-s03-t0,False,2026-01-19T22:28:01
+"API-E01-S01-T01: POST /api/sessions",inreview,vk/b4da-api-e01-s01-t01,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\b4da-api-e01-s01-t01,False,2026-01-20T08:57:54
+"API-E01-S01-T02: GET /api/sessions/:id",inreview,vk/f7c2-api-e01-s01-t02,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\f7c2-api-e01-s01-t02,False,2026-01-20T08:57:49
+"API-E01-S01-T03: PUT /api/sessions/:id",inreview,vk/100f-api-e01-s01-t03,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\100f-api-e01-s01-t03,False,2026-01-20T08:57:44
+"API-E01-S01-T04: POST /api/sessions/:id/claim",inreview,vk/84a5-api-e01-s01-t04,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\84a5-api-e01-s01-t04,False,2026-01-20T08:57:40
+"API-E01-S02-T02: POST /api/auth/callback",inreview,vk/5cf1-api-e01-s02-t02,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\5cf1-api-e01-s02-t02,False,2026-01-20T08:57:31
+"API-E01-S02-T03: Implement Session Merge",inreview,vk/cad2-api-e01-s02-t03,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\cad2-api-e01-s02-t03,False,2026-01-20T08:57:25
+"API-E02-S01-T01: POST /api/configs",inreview,vk/5065-api-e02-s01-t01,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\5065-api-e02-s01-t01,False,2026-01-20T08:57:20
+"API-E02-S01-T02: GET /api/configs/:id",inreview,vk/986b-api-e02-s01-t02,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\986b-api-e02-s01-t02,False,2026-01-20T09:12:01
+"API-E02-S01-T03: PUT /api/configs/:id",inreview,vk/1c33-api-e02-s01-t03,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\1c33-api-e02-s01-t03,False,2026-01-20T08:57:15
+"API-E02-S01-T04: DELETE /api/configs/:id",inreview,vk/db6d-api-e02-s01-t04,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\db6d-api-e02-s01-t04,False,2026-01-20T08:57:06
+"API-E02-S01-T05: GET /api/configs/:id/preview",inreview,vk/10f9-api-e02-s01-t05,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\10f9-api-e02-s01-t05,False,2026-01-20T09:11:56
+"API-E02-S02-T01: POST /api/wedding-events",inreview,vk/c6a7-api-e02-s02-t01,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\c6a7-api-e02-s02-t01,False,2026-01-20T08:43:37
+"API-E02-S02-T02: GET /api/wedding-events/:id",inreview,vk/2629-api-e02-s02-t02,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\2629-api-e02-s02-t02,False,2026-01-20T09:11:48
+"API-E02-S02-T03: POST /api/wedding-events/:id/templates",inreview,vk/c2a1-api-e02-s02-t03,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\c2a1-api-e02-s02-t03,False,2026-01-20T08:43:27
+"API-E02-S02-T04: POST /api/wedding-events/:id/attendees",inreview,vk/9c6c-api-e02-s02-t04,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\9c6c-api-e02-s02-t04,False,2026-01-20T08:43:21
+"API-E02-S02-T05: GET /api/invites/:token",inreview,vk/887f-api-e02-s02-t05,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\887f-api-e02-s02-t05,False,2026-01-20T08:43:13
+"API-E02-S02-T06: POST /api/invites/:token/confirm",inreview,vk/d0bd-api-e02-s02-t06,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\d0bd-api-e02-s02-t06,False,2026-01-20T08:43:09
+"API-E03-S01-T01: POST /api/orders",inreview,vk/53f6-api-e03-s01-t01,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\53f6-api-e03-s01-t01,False,2026-01-20T08:43:03
+"API-E03-S01-T02: GET /api/orders",inreview,vk/6284-api-e03-s01-t02,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\6284-api-e03-s01-t02,False,2026-01-20T08:42:59
+"API-E03-S01-T03: GET /api/orders/:id",inreview,vk/83fb-api-e03-s01-t03,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\83fb-api-e03-s01-t03,False,2026-01-20T08:42:54
+"API-E03-S01-T04: PATCH /api/orders/:id/state",inreview,vk/7339-api-e03-s01-t04,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\7339-api-e03-s01-t04,False,2026-01-20T08:41:02
+"API-E03-S01-T05: Implement State Validation",inreview,vk/0bcf-api-e03-s01-t05,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\0bcf-api-e03-s01-t05,False,2026-01-20T08:40:51
+"DB-E01-S01-T02: Create sessions Table",inreview,vk/83d9-db-e01-s01-t02-c,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\83d9-db-e01-s01-t02-c,False,2026-01-19T14:20:25
+"DB-E01-S01-T03: Add RLS Policy - Users",inreview,vk/a4eb-db-e01-s01-t03-a,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\a4eb-db-e01-s01-t03-a,False,2026-01-19T14:20:26
+"DB-E01-S01-T04: Add RLS Policy - Sessions",inreview,vk/bf11-db-e01-s01-t04-a,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\bf11-db-e01-s01-t04-a,False,2026-01-20T09:02:36
+"DB-E01-S02-T01: Create measurements Table",inreview,vk/d0e3-db-e01-s02-t01-c,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\d0e3-db-e01-s02-t01-c,False,2026-01-20T09:02:31
+"DB-E01-S02-T03: Create suit_configs Table",inreview,vk/2b69-db-e01-s02-t03-c,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\2b69-db-e01-s02-t03-c,False,2026-01-20T09:02:26
+"DB-E01-S02-T04: Seed Initial Fabrics",inreview,vk/ab6f-db-e01-s02-t04-s,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\ab6f-db-e01-s02-t04-s,False,2026-01-19T14:20:28
+"DB-E02-S01-T01: Create wedding_events Table",inreview,vk/672c-db-e02-s01-t01-c,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\672c-db-e02-s01-t01-c,False,2026-01-20T09:02:21
+"DB-E02-S01-T02: Add Wedding Date Constraint",inreview,vk/5473-db-e02-s01-t02-a,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\5473-db-e02-s01-t02-a,False,2026-01-20T09:02:11
+"DB-E02-S01-T03: Create wedding_templates Table",inreview,vk/3008-db-e02-s01-t03-c,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\3008-db-e02-s01-t03-c,False,2026-01-20T09:02:02
+"DB-E02-S01-T04: Create wedding_attendees Table",inreview,vk/69e6-db-e02-s01-t04-c,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\69e6-db-e02-s01-t04-c,False,2026-01-20T09:01:57
+"DB-E02-S01-T05: Add RLS - Organizer Access",inreview,vk/f2f8-db-e02-s01-t05-a,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\f2f8-db-e02-s01-t05-a,False,2026-01-20T09:01:51
+"DB-E03-S01-T01: Create orders Table",inreview,vk/82df-db-e03-s01-t01-c,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\82df-db-e03-s01-t01-c,False,2026-01-20T09:01:42
+"DB-E03-S01-T02: Create order_items Table",inreview,vk/84fc-db-e03-s01-t02-c,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\84fc-db-e03-s01-t02-c,False,2026-01-20T09:12:10
+"DB-E03-S01-T03: Create order_state_history Table",inreview,vk/878e-db-e03-s01-t03-c,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\878e-db-e03-s01-t03-c,False,2026-01-20T09:01:30
+"DB-E03-S01-T04: Create pattern_files Table",inreview,vk/2ba7-db-e03-s01-t04-c,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\2ba7-db-e03-s01-t04-c,False,2026-01-20T09:01:23
+"DB-E03-S01-T05: Create State Transition Function",inreview,vk/8aed-db-e03-s01-t05-c,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\8aed-db-e03-s01-t05-c,False,2026-01-20T09:01:18
+"FE-E01-S01-T01: Initialize Next.js 14",inreview,vk/b13c-fe-e01-s01-t01-i,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\b13c-fe-e01-s01-t01-i,False,2026-01-19T14:35:19
+"FE-E01-S01-T02: Configure Tailwind",inreview,vk/7dcb-fe-e01-s01-t02-c,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\7dcb-fe-e01-s01-t02-c,False,2026-01-19T14:40:21
+"FE-E01-S01-T03: Set Up Zustand Store",inreview,vk/eee7-fe-e01-s01-t03-s,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\eee7-fe-e01-s01-t03-s,False,2026-01-19T14:43:54
+"FE-E01-S01-T04: Configure Environment",inreview,vk/3701-fe-e01-s01-t04-c,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\3701-fe-e01-s01-t04-c,False,2026-01-19T14:43:55
+"FE-E01-S02-T01: Implement Dual-Track Router",inreview,vk/5b66-fe-e01-s02-t01-i,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\5b66-fe-e01-s02-t01-i,False,2026-01-19T14:44:59
+"FE-E01-S02-T02: Create Layout Components",inreview,vk/00ce-fe-e01-s02-t02-c,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\00ce-fe-e01-s02-t02-c,False,2026-01-19T14:48:00
+"FE-E01-S02-T03: Implement Responsive Design",inreview,vk/50fd-fe-e01-s02-t03-i,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\50fd-fe-e01-s02-t03-i,False,2026-01-19T14:48:02
+"FE-E01-S03-T01: Create useSession Hook",inreview,vk/33c8-fe-e01-s03-t01-c,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\33c8-fe-e01-s03-t01-c,False,2026-01-19T14:52:34
+"FE-E01-S03-T02: Call Session API",inreview,vk/0853-fe-e01-s03-t02-c,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\0853-fe-e01-s03-t02-c,False,2026-01-19T14:53:07
+"FE-E01-S03-T03: Implement Session Restore",inreview,vk/7548-fe-e01-s03-t03-i,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\7548-fe-e01-s03-t03-i,False,2026-01-19T14:56:09
+"FE-E02-S01-T01: Set Up R3F Canvas",inreview,vk/69c0-fe-e02-s01-t01-s,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\69c0-fe-e02-s01-t01-s,False,2026-01-19T14:57:11
+"FE-E02-S01-T02: Implement GPU Tier Detection",inreview,vk/fea8-fe-e02-s01-t02-i,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\fea8-fe-e02-s01-t02-i,False,2026-01-19T14:57:42
+"FE-E02-S01-T03: Configure Tiered Rendering",inreview,vk/e31b-fe-e02-s01-t03-c,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\e31b-fe-e02-s01-t03-c,False,2026-01-19T15:01:43
+"FE-E02-S01-T04: Set Up Lighting",inreview,vk/04e2-fe-e02-s01-t04-s,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\04e2-fe-e02-s01-t04-s,False,2026-01-19T15:03:14
+"FE-E02-S01-T05: Implement Camera Controls",inreview,vk/06dc-fe-e02-s01-t05-i,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\06dc-fe-e02-s01-t05-i,False,2026-01-19T15:03:16
+"FE-E02-S02-T01: Implement GLTF Loader",inreview,vk/42d8-fe-e02-s02-t01-i,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\42d8-fe-e02-s02-t01-i,False,2026-01-19T15:04:17
+"FE-E02-S02-T02: Create Asset Manager",inreview,vk/3c1f-fe-e02-s02-t02-c,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\3c1f-fe-e02-s02-t02-c,False,2026-01-19T15:04:49
+"FE-E02-S02-T03: Implement Suspense Boundaries",inreview,vk/b108-fe-e02-s02-t03-i,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\b108-fe-e02-s02-t03-i,False,2026-01-19T15:06:50
+"FE-E02-S03-T01: Build Fabric Selector",inreview,vk/c5de-fe-e02-s03-t01-b,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\c5de-fe-e02-s03-t01-b,False,2026-01-19T15:07:52
+"FE-E02-S03-T02: Implement Fabric Selection",inreview,vk/4194-fe-e02-s03-t02-i,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\4194-fe-e02-s03-t02-i,False,2026-01-19T15:09:53
+"FE-E02-S03-T03: Build Style Selector",inreview,vk/e2f6-fe-e02-s03-t03-b,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\e2f6-fe-e02-s03-t03-b,False,2026-01-19T15:11:55
+"FE-E02-S03-T04: Implement Mesh Swapping",inreview,vk/ad31-fe-e02-s03-t04-i,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\ad31-fe-e02-s03-t04-i,False,2026-01-19T15:12:26
+"FE-E02-S03-T05: Build Lining Selector",inreview,vk/dd1d-fe-e02-s03-t05-b,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\dd1d-fe-e02-s03-t05-b,False,2026-01-19T15:13:57
+"FIN-E01-S01-T01: Configure Stripe Account",inreview,vk/5231-fin-e01-s01-t01,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\5231-fin-e01-s01-t01,False,2026-01-19T23:07:07
+"FIN-E01-S01-T02: Set Up API Keys",inreview,vk/d313-fin-e01-s01-t02,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\d313-fin-e01-s01-t02,False,2026-01-19T23:08:08
+"FIN-E01-S01-T03: Create PaymentIntent Endpoint",inreview,vk/e054-fin-e01-s01-t03,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\e054-fin-e01-s01-t03,False,2026-01-19T23:09:39
+"FIN-E01-S01-T04: Handle Track A Amount",inreview,vk/8747-fin-e01-s01-t04,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\8747-fin-e01-s01-t04,False,2026-01-19T23:09:41
+"FIN-E01-S01-T05: Handle Track B Amount",inreview,vk/9373-fin-e01-s01-t05,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\9373-fin-e01-s01-t05,False,2026-01-19T23:11:12
+"FIN-E01-S02-T01: Create Webhook Endpoint",inreview,vk/db6c-fin-e01-s02-t01,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\db6c-fin-e01-s02-t01,False,2026-01-19T23:13:44
+"FIN-E01-S02-T02: Verify Webhook Signature",inreview,vk/9e8f-fin-e01-s02-t02,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\9e8f-fin-e01-s02-t02,False,2026-01-19T23:14:45
+"FIN-E01-S02-T03: Handle payment_intent.succeeded",inreview,vk/9564-fin-e01-s02-t03,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\9564-fin-e01-s02-t03,False,2026-01-19T23:15:16
+"FIN-E01-S02-T04: Handle payment_intent.failed",inreview,vk/5ffc-fin-e01-s02-t04,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\5ffc-fin-e01-s02-t04,False,2026-01-19T23:18:18
+"INFRA-E01-S01-T01: Provision GPU Instance",inreview,vk/3328-infra-e01-s01-t0,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\3328-infra-e01-s01-t0,False,2026-01-20T08:14:53
+"INFRA-E01-S01-T01: Provision GPU Instance",inreview,vk/bb49-infra-e01-s01-t0,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\bb49-infra-e01-s01-t0,False,2026-01-19T09:37:41
+"INFRA-E01-S01-T01: Provision GPU Instance",inreview,vk/a520-infra-e01-s01-t0,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\a520-infra-e01-s01-t0,False,2026-01-19T00:38:11
+"INFRA-E01-S01-T01: Provision GPU Instance",inreview,vk/20f3-infra-e01-s01-t0,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\20f3-infra-e01-s01-t0,False,2026-01-19T00:38:11
+"INFRA-E01-S01-T02: Install NVIDIA Driver",inreview,vk/2646-infra-e01-s01-t0,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\2646-infra-e01-s01-t0,False,2026-01-19T01:11:21
+"INFRA-E01-S01-T03: Install CUDA Toolkit",inreview,vk/9f34-infra-e01-s01-t0,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\9f34-infra-e01-s01-t0,False,2026-01-19T01:11:13
+"INFRA-E01-S01-T04: Verify GPU Access",inreview,vk/3fdc-infra-e01-s01-t0,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\3fdc-infra-e01-s01-t0,False,2026-01-19T01:10:41
+"INFRA-E01-S02-T01: Install WSL2",inreview,vk/8d6d-infra-e01-s02-t0,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\8d6d-infra-e01-s02-t0,False,2026-01-19T09:38:22
+"INFRA-E01-S02-T01: Install WSL2",inreview,vk/93d7-infra-e01-s02-t0,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\93d7-infra-e01-s02-t0,False,2026-01-19T01:08:14
+"INFRA-E01-S02-T02: Configure WSL Resources",inreview,vk/ed1d-infra-e01-s02-t0,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\ed1d-infra-e01-s02-t0,False,2026-01-19T01:01:00
+"INFRA-E02-S01-T01: Create Vision Dockerfile",inreview,vk/5032-infra-e02-s01-t0,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\5032-infra-e02-s01-t0,False,2026-01-20T09:03:03
+"INFRA-E02-S01-T02: Install PyTorch Nightly",inreview,vk/6f3f-infra-e02-s01-t0,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\6f3f-infra-e02-s01-t0,False,2026-01-19T00:58:12
+"INFRA-E02-S01-T03: Install Vision Dependencies",inreview,vk/cbe6-infra-e02-s01-t0,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\cbe6-infra-e02-s01-t0,False,2026-01-20T09:02:58
+"RUNNER-E01-S01-T01: Create PWA Shell",inreview,vk/5f6c-runner-e01-s01-t,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\5f6c-runner-e01-s01-t,False,2026-01-19T22:31:02
+"RUNNER-E01-S01-T02: Implement Runner Auth",inreview,vk/f416-runner-e01-s01-t,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\f416-runner-e01-s01-t,False,2026-01-19T22:31:34
+"RUNNER-E01-S01-T03: Build Mobile Layout",inreview,vk/01fa-runner-e01-s01-t,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\01fa-runner-e01-s01-t,False,2026-01-19T22:32:05
+"RUNNER-E01-S02-T01: Build Task List View",inreview,vk/617e-runner-e01-s02-t,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\617e-runner-e01-s02-t,False,2026-01-19T22:34:07
+"RUNNER-E01-S02-T02: Filter by Task Type",inreview,vk/9ab8-runner-e01-s02-t,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\9ab8-runner-e01-s02-t,False,2026-01-19T22:34:08
+"RUNNER-E01-S02-T03: Show Task Details",inreview,vk/5d05-runner-e01-s02-t,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\5d05-runner-e01-s02-t,False,2026-01-19T22:35:39
+"RUNNER-E01-S02-T04: Implement Pull to Refresh",inreview,vk/a3ec-runner-e01-s02-t,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\a3ec-runner-e01-s02-t,False,2026-01-19T22:36:41
+"RUNNER-E02-S01-T01: Build Ruler Test Screen",inreview,vk/945e-runner-e02-s01-t,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\945e-runner-e02-s01-t,False,2026-01-19T22:37:12
+"RUNNER-E02-S01-T02: Add Numeric Input",inreview,vk/73a7-runner-e02-s01-t,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\73a7-runner-e02-s01-t,False,2026-01-19T22:39:44
+"RUNNER-E02-S01-T03: Implement Validation",inreview,vk/7ad2-runner-e02-s01-t,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\7ad2-runner-e02-s01-t,False,2026-01-19T22:45:45
+"RUNNER-E02-S01-T04: Handle Pass",inreview,vk/68cc-runner-e02-s01-t,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\68cc-runner-e02-s01-t,False,2026-01-19T22:45:47
+"RUNNER-E02-S01-T05: Handle Fail",inreview,vk/d026-runner-e02-s01-t,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\d026-runner-e02-s01-t,False,2026-01-19T22:46:48
+"RUNNER-E02-S01-T06: Block Printer Payment",inreview,vk/2b5d-runner-e02-s01-t,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\2b5d-runner-e02-s01-t,False,2026-01-19T22:48:19
+"RUNNER-E02-S02-T01: Build Photo Upload Screen",inreview,vk/cde1-runner-e02-s02-t,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\cde1-runner-e02-s02-t,False,2026-01-19T22:48:51
+"RUNNER-E02-S02-T02: Implement File Input",inreview,vk/261b-runner-e02-s02-t,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\261b-runner-e02-s02-t,False,2026-01-19T22:51:22
+"RUNNER-E02-S02-T03: Upload Photo",inreview,vk/b427-runner-e02-s02-t,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\b427-runner-e02-s02-t,False,2026-01-19T22:54:54
+"RUNNER-E02-S02-T04: Link to Order",inreview,vk/01b9-runner-e02-s02-t,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\01b9-runner-e02-s02-t,False,2026-01-19T22:54:55
+"RUNNER-E02-S02-T05: Confirm Reservation",inreview,vk/e1b6-runner-e02-s02-t,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\e1b6-runner-e02-s02-t,False,2026-01-19T22:57:29
+"RUNNER-E03-S01-T01: Build Delivery Screen",inreview,vk/6291-runner-e03-s01-t,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\6291-runner-e03-s01-t,False,2026-01-19T23:03:01
+"RUNNER-E03-S01-T02: Add Confirmation Checklist",inreview,vk/df6f-runner-e03-s01-t,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\df6f-runner-e03-s01-t,False,2026-01-19T23:03:32
+"RUNNER-E03-S01-T03: Capture Signature/Photo",inreview,vk/198e-runner-e03-s01-t,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\198e-runner-e03-s01-t,False,2026-01-19T23:06:34
+"RUNNER-E03-S01-T04: Update State",inreview,vk/155f-runner-e03-s01-t,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\155f-runner-e03-s01-t,False,2026-01-19T23:06:35
+"VIS-E01-S01-T02: Calculate Mesh Height",inreview,vk/46af-vis-e01-s01-t02,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\46af-vis-e01-s01-t02,False,2026-01-19T14:18:49
+"VIS-E01-S01-T04: Apply Scale to Mesh",inreview,vk/7101-vis-e01-s01-t04,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\7101-vis-e01-s01-t04,False,2026-01-19T14:18:50
+"VIS-E01-S02-T01: Implement ArUco Detection",inreview,vk/bd3c-vis-e01-s02-t01,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\bd3c-vis-e01-s02-t01,False,2026-01-19T14:18:52
+"VIS-E01-S02-T02: Implement PnP Solver",inreview,vk/50f9-vis-e01-s02-t02,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\50f9-vis-e01-s02-t02,False,2026-01-19T14:18:53
+"VIS-E02-S01-T04: Implement SHAPY Shape",inreview,vk/daaa-vis-e02-s01-t04,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\daaa-vis-e02-s01-t04,False,2026-01-19T14:20:30
+"VIS-E02-S02-T03: Implement Warm-up Period",inreview,vk/9cdd-vis-e02-s02-t03,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\9cdd-vis-e02-s02-t03,False,2026-01-19T14:21:31
+"VIS-E03-S01-T03: Implement Geodesic Measurements",inreview,vk/cf1f-vis-e03-s01-t03,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\cf1f-vis-e03-s01-t03,False,2026-01-19T02:15:12
+"VIS-E03-S01-T04: Implement Planar Slicing",inreview,vk/cde0-vis-e03-s01-t04,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\cde0-vis-e03-s01-t04,False,2026-01-19T14:22:35
+"VIS-E03-S01-T05: Extract 28 Measurements",inreview,vk/8ed8-vis-e03-s01-t05,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\8ed8-vis-e03-s01-t05,False,2026-01-19T14:23:09
+"VIS-E03-S01-T06: Store in Database",inreview,vk/cdbb-vis-e03-s01-t06,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\cdbb-vis-e03-s01-t06,False,2026-01-19T14:26:10
+"VIS-E03-S02-T01: Define Differentiable Measurement Function",inreview,vk/bc8c-vis-e03-s02-t01,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\bc8c-vis-e03-s02-t01,False,2026-01-19T14:27:12
+"VIS-E03-S02-T02: Implement Optimization Loop",inreview,vk/d19e-vis-e03-s02-t02,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\d19e-vis-e03-s02-t02,False,2026-01-19T14:29:14
+"VIS-E03-S02-T03: Create Re-optimization Endpoint",inreview,vk/2911-vis-e03-s02-t03,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\2911-vis-e03-s02-t03,False,2026-01-19T14:33:46
+"VIS-E03-S02-T04: Update Frontend Mesh",inreview,vk/d89e-vis-e03-s02-t04,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\d89e-vis-e03-s02-t04,False,2026-01-19T14:34:17
+"VOICE-E01-S01-T01: Create Vapi Account",inreview,vk/a0c0-voice-e01-s01-t0,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\a0c0-voice-e01-s01-t0,False,2026-01-19T23:29:21
+"VOICE-E01-S01-T02: Configure Assistant",inreview,vk/fd29-voice-e01-s01-t0,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\fd29-voice-e01-s01-t0,False,2026-01-19T23:29:52
+"VOICE-E01-S01-T03: Write System Prompt",inreview,vk/ae40-voice-e01-s01-t0,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\ae40-voice-e01-s01-t0,False,2026-01-19T23:29:54
+"VOICE-E01-S01-T04: Select LLM",inreview,vk/3789-voice-e01-s01-t0,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\3789-voice-e01-s01-t0,False,2026-01-19T23:32:25
+"VOICE-E01-S01-T05: Select TTS",inreview,vk/8e4b-voice-e01-s01-t0,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\8e4b-voice-e01-s01-t0,False,2026-01-19T23:33:57
+"VOICE-E01-S02-T01: Create Telemetry Endpoint",inreview,vk/8e3a-voice-e01-s02-t0,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\8e3a-voice-e01-s02-t0,False,2026-01-19T23:36:28
+"VOICE-E01-S02-T02: Expose ArUco Status",inreview,vk/ac1c-voice-e01-s02-t0,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\ac1c-voice-e01-s02-t0,False,2026-01-20T05:38:18
+"VOICE-E01-S02-T02: Expose ArUco Status",inreview,vk/1c0d-voice-e01-s02-t0,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\1c0d-voice-e01-s02-t0,False,2026-01-19T23:38:00
+"VOICE-E01-S02-T03: Expose Rotation Speed",inreview,vk/2a23-voice-e01-s02-t0,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\2a23-voice-e01-s02-t0,False,2026-01-19T23:39:01
+"VOICE-E01-S02-T04: Expose Frame Quality",inreview,vk/700e-voice-e01-s02-t0,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\700e-voice-e01-s02-t0,False,2026-01-20T05:38:20
+"VOICE-E01-S02-T04: Expose Frame Quality",inreview,vk/b7e6-voice-e01-s02-t0,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\b7e6-voice-e01-s02-t0,False,2026-01-19T23:40:02
+"VOICE-E01-S03-T02: Implement Calibration Dialogue",inreview,vk/148e-voice-e01-s03-t0,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\148e-voice-e01-s03-t0,False,2026-01-19T23:42:35
+"VOICE-E01-S04-T01: Install Vapi SDK",inreview,vk/0193-voice-e01-s04-t0,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\0193-voice-e01-s04-t0,False,2026-01-19T23:48:40
+"VOICE-E01-S04-T04: Auto-Advance UI",inreview,vk/3b75-voice-e01-s04-t0,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\3b75-voice-e01-s04-t0,False,2026-01-19T23:49:13
+"INFRA-E02-S01-T05: Create docker-compose.yml",done,vk/7bb4-infra-e02-s01-t0,C:\Users\mathe\AppData\Local\Temp\vibe-kanban\worktrees\7bb4-infra-e02-s01-t0,False,2026-01-20T09:02:49

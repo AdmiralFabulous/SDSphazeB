@@ -1,0 +1,81 @@
+.photo-upload-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.camera-feed {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 9 / 16;
+  background: #000;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.video-stream {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.capture-button {
+  padding: 12px 24px;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.capture-button:hover {
+  background-color: #357abd;
+}
+
+.capture-button:active {
+  transform: scale(0.98);
+}
+
+.photo-upload-error {
+  padding: 20px;
+  background-color: #fee;
+  border: 1px solid #fcc;
+  border-radius: 6px;
+  text-align: center;
+  color: #c33;
+}
+
+.photo-upload-error p:first-child {
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.error-message {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.error-hint {
+  font-size: 12px;
+  opacity: 0.8;
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  .photo-upload-container {
+    padding: 1rem;
+  }
+
+  .capture-button {
+    padding: 14px 20px;
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,47 @@
+-- Seed 5 Raymond fabrics for MVP launch
+INSERT INTO public.fabrics (code, name, description, price_modifier, color_hex, in_stock, properties, supplier) VALUES
+
+('RAY-NVY-001',
+ 'Navy Classic Wool',
+ 'Timeless navy blue pure wool suiting. Perfect for business and formal occasions.',
+ 1.00,
+ '#1a1a2e',
+ TRUE,
+ '{"weight_gsm": 280, "composition": "100% Pure Wool", "weave": "Twill", "stretch": false, "season": ["all-season"]}',
+ 'Raymond'),
+
+('RAY-CHR-001',
+ 'Charcoal Grey Wool',
+ 'Sophisticated charcoal grey wool suiting. Versatile for all occasions.',
+ 1.00,
+ '#36454f',
+ TRUE,
+ '{"weight_gsm": 280, "composition": "100% Pure Wool", "weave": "Plain", "stretch": false, "season": ["all-season"]}',
+ 'Raymond'),
+
+('RAY-BLK-001',
+ 'Midnight Black Wool',
+ 'Deep black pure wool suiting. Essential for formal and evening wear.',
+ 1.10,
+ '#0d0d0d',
+ TRUE,
+ '{"weight_gsm": 300, "composition": "100% Pure Wool", "weave": "Plain", "stretch": false, "season": ["all-season"]}',
+ 'Raymond'),
+
+('RAY-GRY-001',
+ 'Light Grey Wool',
+ 'Contemporary light grey wool suiting. Perfect for daytime events.',
+ 1.00,
+ '#808080',
+ TRUE,
+ '{"weight_gsm": 260, "composition": "100% Pure Wool", "weave": "Plain", "stretch": false, "season": ["spring", "summer"]}',
+ 'Raymond'),
+
+('RAY-TAN-001',
+ 'Tan Cotton-Linen',
+ 'Relaxed tan cotton-linen blend. Ideal for summer and destination events.',
+ 1.15,
+ '#d2b48c',
+ TRUE,
+ '{"weight_gsm": 220, "composition": "60% Cotton, 40% Linen", "weave": "Plain", "stretch": false, "season": ["spring", "summer"]}',
+ 'Raymond');

@@ -1,0 +1,134 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Session {
+  id          String       @id @default(cuid())
+  userId      String?
+  height      Float?       // Height in centimeters
+  createdAt   DateTime     @default(now())
+  updatedAt   DateTime     @updatedAt
+  suitConfigs SuitConfig[]
+  scans       Scan[]
+}
+
+model Fabric {
+  id           String       @id @default(cuid())
+  name         String       @unique
+  type         String?      // e.g., "wool", "cotton", "polyester"
+  category     String?
+  color        String?
+  colorHex     String?      // Hex color code for swatch
+  textureUrl   String?      // URL to texture image for 3D rendering
+  normalMapUrl String?      // URL to normal map for enhanced 3D rendering
+  imageUrl     String?      // Optional image URL for swatch
+  inStock      Boolean      @default(true)
+  createdAt    DateTime     @default(now())
+  updatedAt    DateTime     @updatedAt
+  suitConfigs  SuitConfig[]
+}
+
+model SuitConfig {
+  id               String      @id @default(cuid())
+  sessionId        String?
+  fabricId         String?
+  name             String?
+  description      String?
+  style            String?     // e.g., "classic", "slim-fit", "modern"
+  notes            String?
+  isTemplate       Boolean     @default(false)
+  templateLockedAt DateTime?
+  createdAt        DateTime    @default(now())
+  updatedAt        DateTime    @updatedAt
+
+  session    Session?    @relation(fields: [sessionId], references: [id], onDelete: Cascade)
+  fabric     Fabric?     @relation(fields: [fabricId], references: [id])
+  orderItems OrderItem[]
+
+  @@index([sessionId])
+  @@index([fabricId])
+}
+
+model Order {
+  id                String      @id @default(cuid())
+  userId            String?
+  status            String      @default("S01_PAID") // Order state machine status
+  totalAmount       Float?
+  currency          String      @default("GBP")
+  stripePaymentId   String?
+  shippingAddress   String?     // JSON string for address
+  notes             String?
+  createdAt         DateTime    @default(now())
+  updatedAt         DateTime    @updatedAt
+  items             OrderItem[]
+
+  @@index([userId])
+  @@index([status])
+}
+
+model OrderItem {
+  id           String     @id @default(cuid())
+  orderId      String
+  order        Order      @relation(fields: [orderId], references: [id], onDelete: Cascade)
+  suitConfigId String
+  suitConfig   SuitConfig @relation(fields: [suitConfigId], references: [id])
+  quantity     Int        @default(1)
+  price        Float?
+  createdAt    DateTime   @default(now())
+  updatedAt    DateTime   @updatedAt
+
+  @@index([orderId])
+}
+
+model Scan {
+  id        String   @id @default(cuid())
+  sessionId String
+  session   Session  @relation(fields: [sessionId], references: [id], onDelete: Cascade)
+  status    String   @default("pending") // pending, processing, completed, failed
+  scanType  String?  // Type of scan (e.g., "full_body", "posture")
+  result    String?  // JSON-encoded scan results
+  error     String?  // Error message if failed
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([sessionId])
+}
+
+model LapelStyle {
+  id          String   @id @default(cuid())
+  name        String   @unique
+  description String?
+  imageUrl    String?
+  category    String?  // e.g., "notch", "peak", "shawl"
+  inStock     Boolean  @default(true)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model VentStyle {
+  id          String   @id @default(cuid())
+  name        String   @unique
+  description String?
+  category    String?  // e.g., "single", "double", "ventless"
+  inStock     Boolean  @default(true)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model ButtonOption {
+  id          String   @id @default(cuid())
+  name        String   @unique
+  description String?
+  category    String?  // e.g., "two-button", "three-button", "four-button"
+  inStock     Boolean  @default(true)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}

@@ -1,0 +1,17 @@
+{
+  "name": "vibe-kanban-audit",
+  "version": "1.0.0",
+  "description": "Full audit tool for Vibe Kanban tasks and worktrees",
+  "main": "audit.js",
+  "bin": {
+    "vk-audit": "./audit.js"
+  },
+  "scripts": {
+    "audit": "node audit.js",
+    "audit:json": "node audit.js --json",
+    "audit:csv": "node audit.js --csv",
+    "audit:verbose": "node audit.js --verbose"
+  },
+  "keywords": ["vibe-kanban", "audit", "tasks"],
+  "license": "MIT"
+}

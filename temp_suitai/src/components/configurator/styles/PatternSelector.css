@@ -1,0 +1,112 @@
+.pattern-selector {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.section-title {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.patterns-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 1rem;
+}
+
+.pattern-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 0.75rem;
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 3px solid transparent;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.pattern-item:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+  transform: translateY(-2px);
+}
+
+.pattern-item.selected {
+  border-color: rgba(100, 150, 200, 0.8);
+  background-color: rgba(100, 150, 200, 0.15);
+  box-shadow: 0 0 0 1px rgba(100, 150, 200, 0.6), 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.pattern-preview-container {
+  width: 100%;
+  aspect-ratio: 1;
+  border-radius: 4px;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.pattern-preview {
+  width: 100%;
+  height: 100%;
+}
+
+.pattern-preview.solid {
+  background: linear-gradient(135deg, #888888 0%, #666666 100%);
+}
+
+.pattern-preview.gradient {
+  background: linear-gradient(135deg, #888888 0%, #444444 100%);
+}
+
+.pattern-preview.stripe {
+  background: repeating-linear-gradient(
+    45deg,
+    #888888,
+    #888888 10px,
+    #555555 10px,
+    #555555 20px
+  );
+}
+
+.pattern-preview.geometric {
+  background: linear-gradient(135deg, #888888 25%, transparent 25%),
+    linear-gradient(225deg, #888888 25%, transparent 25%),
+    linear-gradient(315deg, #888888 25%, transparent 25%),
+    linear-gradient(45deg, #888888 25%, #555555 25%);
+  background-position: 20px 0, 20px 0, 0 0, 0 0;
+  background-size: 40px 40px;
+  background-repeat: repeat;
+}
+
+.pattern-preview-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.pattern-name {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+}
+
+.pattern-checkmark {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  background-color: rgba(100, 150, 200, 0.8);
+  color: #fff;
+  border-radius: 50%;
+  font-weight: bold;
+  font-size: 0.9rem;
+}

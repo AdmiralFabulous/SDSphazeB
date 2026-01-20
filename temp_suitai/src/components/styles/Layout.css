@@ -1,0 +1,51 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: var(--bg-color, #ffffff);
+}
+
+.layout-body {
+  display: flex;
+  flex: 1;
+  position: relative;
+}
+
+.layout-main {
+  flex: 1;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.layout-main.with-sidebar {
+  margin-left: 260px;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .layout-main.with-sidebar {
+    margin-left: 240px;
+  }
+}
+
+@media (max-width: 768px) {
+  .layout-main.with-sidebar {
+    margin-left: 0;
+  }
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  .layout {
+    background-color: var(--bg-color-dark, #0a0a0a);
+  }
+}
+
+/* Accessibility */
+@media (prefers-reduced-motion: reduce) {
+  .layout,
+  .layout-main {
+    scroll-behavior: auto;
+  }
+}
